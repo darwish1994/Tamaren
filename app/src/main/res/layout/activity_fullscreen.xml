@@ -1,0 +1,32 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.app.darwish.tamaren.FullscreenActivity">
+
+    <ImageView
+        android:id="@+id/logo_home"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_margin="0dp"
+        android:elevation="0dp"
+        android:src="@drawable/image" />
+
+    <TextView
+
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="60dp"
+        android:gravity="center"
+        android:text="@string/dummy_content"
+        android:textColor="@color/black_overlay"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+
+
+</FrameLayout>

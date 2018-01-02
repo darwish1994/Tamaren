@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "148883010753",
+    "firebase_url": "https://tamaren-7e1ca.firebaseio.com",
+    "project_id": "tamaren-7e1ca",
+    "storage_bucket": "tamaren-7e1ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148883010753:android:1a3c4e34d1267ae4",
+        "android_client_info": {
+          "package_name": "com.app.darwish.tamaren"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "148883010753-bl8rmic6801rdodulpfba64s90jl6rcv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.darwish.tamaren",
+            "certificate_hash": "96eb0bcd720f38fd287ca988f7eb188b0ebcdd42"
+          }
+        },
+        {
+          "client_id": "148883010753-2i6ga23gnmadc6egptershl66hfsqioe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbxl1s7tA30JaNqUSJrdtpFOXS8J3ghqw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "148883010753-2i6ga23gnmadc6egptershl66hfsqioe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

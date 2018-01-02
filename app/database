@@ -1,0 +1,32 @@
+{
+  "user":[
+    {
+      "type":"arabic",
+      "email":"darwish1994@outlook.com",
+      "cources":[
+        "arabic",
+        "english",
+        "math",
+        "geographic"
+      ],
+      "setting":{
+        "apptype":"free",
+        "viewNumber":"20"
+      }
+    },
+    {
+      "type":"english",
+      "email":"darwish1994@ymail.com",
+      "cources":[
+        "arabic",
+        "english",
+        "math",
+        "geographic"
+      ],
+      "setting":{
+        "apptype":"free",
+        "viewNumber":"20"
+      }
+    }
+  ]
+}

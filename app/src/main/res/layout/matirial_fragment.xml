@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/course_Gridlayout"
+    android:layout_margin="@dimen/activity_horizontal_margin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/ActivityTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/background_matirial_activity"
+            android:gravity="center"
+            android:text="@string/matiral_Actvity"
+            android:textColor="@color/btn_logut_bg"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+
+        <GridView
+            android:id="@+id/courses_list"
+            android:layout_below="@id/ActivityTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:layoutDirection="ltr"
+            android:numColumns="auto_fit"
+
+            >
+
+        </GridView>
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>
